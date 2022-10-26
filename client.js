@@ -2,7 +2,6 @@ const net = require("net");
 
 // establishes a connection with the game server
 const connect = function () {
-  console.log("Connecting 12......");
 
   const conn = net.createConnection({
     host: '10.0.2.15',
@@ -13,11 +12,10 @@ const connect = function () {
   conn.setEncoding("utf8");
 
   conn.on("connect", () => {
+    console.log("Successfully connected to game server");
+    console.log("Name:tbs");
     console.log("you ded cuz you idled");
-
   });
-
-  console.log("Connecting 1...");
 
   return conn;
 }();
