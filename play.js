@@ -1,4 +1,13 @@
-const { connect } = require('./client')
+const { connect } = require("./client");
+const { setupInput } = require("./input");
+
+console.log("Connecting ...");
+connect();
+
+setupInput();
+
+//const { connect } = require('./client')
+//const { connect } = require('./input')
 
 /*const net = require("net");
 
@@ -25,7 +34,7 @@ connect;
 
 // setup interface to handle user input from stdin
 
-const setupInput = function () {
+/*const setupInput = function () {
   const stdin = process.stdin;
   stdin.setRawMode(true);
   stdin.setEncoding("utf8");
@@ -41,4 +50,4 @@ const handleUserInput = function (key) {
 
 };
 
-setupInput();
+setupInput();*/
