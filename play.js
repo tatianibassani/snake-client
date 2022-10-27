@@ -1,10 +1,9 @@
-const { connect } = require("./client");
-const { setupInput } = require("./input");
+const connect = require("./client");
+const setupInput = require("./input");
 
-console.log("Connecting ...");
-connect();
-
-setupInput();
+// console.log("Connecting ...");
+const connection = connect();
+setupInput(connection);
 
 //const { connect } = require('./client')
 //const { connect } = require('./input')
@@ -29,8 +28,8 @@ const connect = function () {
   return conn;
 };*/
 
-console.log("Connecting ...");
-connect;
+// console.log("Connecting ...");
+// connect;
 
 // setup interface to handle user input from stdin
 
