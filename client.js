@@ -1,4 +1,5 @@
 const net = require("net");
+//const readLine = require("readLine");
 
 // establishes a connection with the game server
 const connect = function() {
@@ -16,6 +17,15 @@ const connect = function() {
     //console.log("Name: TBS");
 
     conn.write("Name: TBS");
+    // conn.write("Say: Hi");
+
+    // rl.on("line"), (line) => {
+    //   clearInterval.write(line);
+    // };
+
+    // clearInterval.on("data", (data) => {
+    //   console.log(`server says: ${data}`);
+    // })
 
     // setTimeout(() => conn.write("Move: up"), 100);
     // setTimeout(() => conn.write("Move: up"), 200);
