@@ -36,6 +36,10 @@ const handleUserInput = function (key) {
   if (key === 'r') {
     connection.write('Say: hello');
   }
+
+  if (key === 'p') {
+    connection.write('Say: Howdy!');
+  }
 };
 
 //setupInput();
