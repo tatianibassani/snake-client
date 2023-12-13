@@ -4,16 +4,16 @@ Snake game is a classic and popular video game where the player maneuvers a dot,
 
 This project is a multiplayer take on the traditional Snake game, adding an extra layer of excitement.
 
-Before running this client, make sure you have the server side up and running. You can download and install the server from [here](https://github.com/example/snek-server).
+Before running this client, make sure you have the server side up and running. You can download and install the server from [here](https://github.com/lighthouse-labs/snek-multiplayer).
 
 ## Final Product
 
-![Screenshot 1](#)
-![Screenshot 2](#)
+![Screenshot 1](https://raw.githubusercontent.com/tatianibassani/snake-client/b62810eb775a09286d0806cacfcf0b12f2da8ca9/documentation/Screen%20Shot%202023-12-13%20at%2010.20.24%20AM.png).
+
 
 ## Getting Started
 
-1. Follow the steps in the [snek server repository](https://github.com/example/snek-server) to set up and run the server side.
+1. Follow the steps in the [snek server repository](https://github.com/lighthouse-labs/snek-multiplayer) to set up and run the server side.
 2. Run the development snake client using the following command:
 
     ```bash
@@ -29,4 +29,4 @@ Before running this client, make sure you have the server side up and running. Y
 - Press **r** to print "hello".
 - Press **p** to print "howdy!"
 
-Enjoy the game and happy coding! 🐍
+Enjoy the game! 🐍
